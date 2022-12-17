@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Check</title>
+</head>
+<body>
+    <div class="h1">
+        <h2>Personal ID Checker</h2>
+    </div>
+    <div class="code-input">
+        <label for="id-input">Enter ID: </label>
+        <input type="text" id="id-input" name="id-input">
+        <p><button onclick="main1()">Check</button></p>
+    </div>
+    <div class="code-info">
+        <ul>
+            <li><span id="display-input">Input:</span></li>
+            <li><span id="display-valid">Is valid:</span></li>
+            <li><span id="display-sex">Sex:</span></li>
+            <li id="ageee">
+                <span id="display-age">Age:</span>
+                <span class="inline-button"><button id="age-button" style="display: none;">More specific</button><span>
+            </li>
+          </ul>  
+    </div>
+    <div class="h1">
+        <h2>Last symbol Generator</h2>
+    </div>
+    <div class="code-input">
+        <label for="id-hatinput">Enter ID: </label>
+        <input type="text" id="id-hatinput" name="id-hatinput">
+        <p><button onclick="main2()">Generate</button></p>
+    </div>
+    <div class="code-info">
+        <ul>
+            <li><span id="display-hatinput">Input:</span></li>
+            <li><span id="display-output">Output:</span></li>
+    </div>
+<script src="scripts/script.js"></script>
+</body>
+</html>
